@@ -1,0 +1,17 @@
+
+.cell-pd {
+	padding: 22rpx 30rpx;
+}
+.list-pd {
+	margin-top: 50rpx;
+}
+.uni-uploader__file {
+	position: relative;
+}
+.uni-icon-close {
+	position: absolute;
+	right: -9px;
+	top: -9px;
+	z-index: 888;
+}
+

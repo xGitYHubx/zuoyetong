@@ -1,0 +1,251 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					// "titleNView": {
+					// 	"type": "transparent",
+					// 	"buttons": [{
+					// 		"type": "home",
+					// 		"badgeText": "发题"
+					// 	}]
+					// }
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/square/RWsquare",
+			"style": {
+				"navigationBarTitleText": "题目广场",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"color": "#1296db"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/publish/RWpublish",
+			"style": {
+				"navigationBarTitleText": "发布题目",
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						// "buttons": [{
+						// 	"text": "发布",
+						// 	"fontSize": "16"
+						// }]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor": "#4191ea",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"color": "#1296db"
+					}
+				},
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/tabbar/user/user",
+			"style": {
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/tabbar/user/myMsg",
+			"style": {
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTitleText": "我的信息",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/tabbar/user/aboutUs",
+			"style": {
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTitleText": "关于我们",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/tabbar/user/feedback",
+			"style": {
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/tabbar/user/myPublish",
+			"style": {
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTitleText": "我的发布",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/tabbar/user/myComment",
+			"style": {
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTitleText": "我的评论",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+		        "backgroundColor": "#f5f6f8",
+		        "navigationBarTitleText": "登录",
+		        "app-plus": {
+		        }
+		    }
+		},
+		{
+			"path": "pages/find-pwd/find-pwd",
+			"style" : {
+			    "navigationBarTitleText":"找回密码"
+			}
+		},
+		{
+			"path": "pages/reg-pwd/reg-pwd",
+			"style" : {
+			    "navigationBarTitleText": "注册"
+			}
+			
+		}
+	    ,{
+            "path" : "pages/square-detail/RWsquareDetail",
+            "style" : {
+				"navigationBarTitleText": "题目详情",
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTextStyle": "white"
+			}
+        },{
+            "path" : "pages/square-detail/RWcomment",
+            "style" : {
+				"navigationBarTitleText": "编辑评论",
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/recharge/RWrechart/RWrechart",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/square-detail/RWDetailById",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabbar/index/Recommend",
+            "style" : {
+				"navigationBarTitleText": "老师推荐",
+				"navigationBarBackgroundColor": "#4191ea",
+				"navigationBarTextStyle": "white"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "topic-club",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "#8a8a8a",
+		"selectedColor": "#1296db",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/index/index",
+				"iconPath": "static/img/tabbar/index.png",
+				"selectedIconPath": "static/img/tabbar/index_press.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/square/RWsquare",
+				"iconPath": "static/img/tabbar/square.png",
+				"selectedIconPath": "static/img/tabbar/square_press.png",
+				"text": "广场"
+			},
+			// {
+			// 	"pagePath": "pages/publish/RWpublish",
+			// 	"iconPath": "static/img/tabbar/photo.png",
+			// 	"selectedIconPath": "static/img/tabbar/photo_press.png",
+			// 	"text": "拍照"
+			// },
+			{
+				"pagePath": "pages/tabbar/order/order",
+				"iconPath": "static/img/tabbar/order.png",
+				"selectedIconPath": "static/img/tabbar/order_press.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/tabbar/user/user",
+				"iconPath": "static/img/tabbar/user.png",
+				"selectedIconPath": "static/img/tabbar/user_press.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 2, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "主页", //模式名称
+				"path": "pages/tabbar/index/index", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "我的评论", //模式名称
+				"path": "pages/tabbar/user/myComment", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "我的任务", //模式名称
+				"path": "pages/tabbar/user/myPublish", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},
+			{
+				"name": "user", //模式名称
+				"path": "pages/tabbar/user/user", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "我的信息", //模式名称
+				"path": "pages/tabbar/user/myMsg", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "广场", //模式名称
+				"path": "pages/tabbar/square/RWsquare", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "注册", //模式名称
+				"path": "pages/reg-pwd/reg-pwd", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "发布", //模式名称
+				"path": "pages/publish/RWpublish", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "编辑评论", //模式名称
+				"path": "pages/square-detail/RWcomment", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},{
+				"name": "订单", //模式名称
+				"path": "pages/tabbar/order/order", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

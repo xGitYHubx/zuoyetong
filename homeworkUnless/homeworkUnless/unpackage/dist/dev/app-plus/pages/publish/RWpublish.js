@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"cell-pd { padding: ",[0,22]," ",[0,30],"; }\n.",[1],"list-pd { margin-top: ",[0,50],"; }\n.",[1],"uni-uploader__file { position: relative; }\n.",[1],"uni-icon-close { position: absolute; right: -9px; top: -9px; z-index: 888; }\n",],undefined,{path:"./pages/publish/RWpublish.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/publish/RWpublish.wxml') } }));

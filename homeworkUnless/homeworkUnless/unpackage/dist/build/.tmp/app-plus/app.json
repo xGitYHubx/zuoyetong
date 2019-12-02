@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/square/RWsquare",
+    "pages/publish/RWpublish",
+    "pages/tabbar/order/order",
+    "pages/tabbar/user/user",
+    "pages/tabbar/user/myMsg",
+    "pages/tabbar/user/aboutUs",
+    "pages/tabbar/user/feedback",
+    "pages/tabbar/user/myPublish",
+    "pages/tabbar/user/myComment",
+    "pages/login/login",
+    "pages/find-pwd/find-pwd",
+    "pages/reg-pwd/reg-pwd",
+    "pages/square-detail/RWsquareDetail",
+    "pages/square-detail/RWcomment",
+    "pages/recharge/RWrechart/RWrechart",
+    "pages/square-detail/RWDetailById"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "topic-club",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "static/img/tabbar/index.png",
+        "selectedIconPath": "static/img/tabbar/index_press.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/square/RWsquare",
+        "iconPath": "static/img/tabbar/square.png",
+        "selectedIconPath": "static/img/tabbar/square_press.png",
+        "text": "广场"
+      },
+      {
+        "pagePath": "pages/tabbar/order/order",
+        "iconPath": "static/img/tabbar/order.png",
+        "selectedIconPath": "static/img/tabbar/order_press.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/tabbar/user/user",
+        "iconPath": "static/img/tabbar/user.png",
+        "selectedIconPath": "static/img/tabbar/user_press.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "作业无忧",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}

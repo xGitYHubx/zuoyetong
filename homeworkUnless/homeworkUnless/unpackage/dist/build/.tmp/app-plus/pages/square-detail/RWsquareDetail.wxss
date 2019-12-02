@@ -1,0 +1,16 @@
+
+.rw-bottom-bar {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+.task-img{
+	width: 650rpx;
+	margin: 10rpx 50rpx;
+}
+
+
+.RW-border-bottom.data-v-1644bafc{
+	border-bottom: #999999 solid 12rpx;
+}
+
